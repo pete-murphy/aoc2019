@@ -1,0 +1,18 @@
+name:                aoc2019
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+- hspec
+
+library:
+  source-dirs: src
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - aoc2019
+      - hspec
