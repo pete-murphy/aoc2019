@@ -8,11 +8,3 @@ dependencies:
 
 library:
   source-dirs: src
-
-tests:
-  spec:
-    main: Spec.hs
-    source-dirs: test
-    dependencies:
-      - aoc2019
-      - hspec
